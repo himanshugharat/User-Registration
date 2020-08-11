@@ -18,4 +18,18 @@ public class UserValidationTest {
         Assert.assertEquals(false,result);
 
     }
+
+    @Test
+    public void givenLastName_WhenProper_ShouldReturnTrue() {
+        UserValidation userValidation=new UserValidation();
+        boolean result=userValidation.validateLastName("Gharat");
+        Assert.assertEquals(true,result);
+    }
+
+    @Test
+    public void givenLastName_WhenShort_ShouldReturnFalse() {
+        UserValidation userValidation=new UserValidation();
+        boolean result=userValidation.validateFirstName("Gh");
+        Assert.assertEquals(false,result);
+    }
 }
