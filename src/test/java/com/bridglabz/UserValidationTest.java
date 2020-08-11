@@ -39,4 +39,24 @@ public class UserValidationTest {
         boolean result=userValidation.validateEmailId("himanshugharat3@gmail.com");
         Assert.assertEquals(true,result);
     }
+
+    @Test
+    public void givenEmailId_WhenNotProper_ShouldReturnFalse() {
+        UserValidation userValidation=new UserValidation();
+        boolean result=userValidation.validateEmailId("himanshugharat3@gmail");
+        Assert.assertEquals(false,result);
+    }
+    @Test
+    public void givenPhoneNumber_WhenProper_ShouldReturnTrue() {
+        UserValidation userValidation=new UserValidation();
+        boolean result=userValidation.validatePhoneNumber("91 8879112333");
+        Assert.assertEquals(true,result);
+    }
+
+    @Test
+    public void givenPhoneNumber_WhenNotProper_ShouldReturnFalse() {
+        UserValidation userValidation=new UserValidation();
+        boolean result=userValidation.validatePhoneNumber("918879112333");
+        Assert.assertEquals(false,result);
+    }
 }

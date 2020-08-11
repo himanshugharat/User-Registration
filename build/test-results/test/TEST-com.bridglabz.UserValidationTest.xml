@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridglabz.UserValidationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-11T08:56:24" hostname="DESKTOP-GL7D8LT" time="0.003">
+<testsuite name="com.bridglabz.UserValidationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-11T09:08:34" hostname="DESKTOP-GL7D8LT" time="0.004">
   <properties/>
-  <testcase name="givenEmailId_WhenProper_ShouldReturnTrue" classname="com.bridglabz.UserValidationTest" time="0.003"/>
+  <testcase name="givenEmailId_WhenNotProper_ShouldReturnFalse" classname="com.bridglabz.UserValidationTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
