@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridglabz.ValidateEmailTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2020-08-11T09:46:40" hostname="DESKTOP-GL7D8LT" time="0.022">
+  <properties/>
+  <testcase name="emailCheck[0]" classname="com.bridglabz.ValidateEmailTest" time="0.001"/>
+  <testcase name="emailCheck[1]" classname="com.bridglabz.ValidateEmailTest" time="0.0"/>
+  <testcase name="emailCheck[2]" classname="com.bridglabz.ValidateEmailTest" time="0.0"/>
+  <testcase name="emailCheck[3]" classname="com.bridglabz.ValidateEmailTest" time="0.001"/>
+  <testcase name="emailCheck[4]" classname="com.bridglabz.ValidateEmailTest" time="0.001"/>
+  <testcase name="emailCheck[5]" classname="com.bridglabz.ValidateEmailTest" time="0.001"/>
+  <testcase name="emailCheck[6]" classname="com.bridglabz.ValidateEmailTest" time="0.0"/>
+  <testcase name="emailCheck[7]" classname="com.bridglabz.ValidateEmailTest" time="0.0"/>
+  <testcase name="emailCheck[8]" classname="com.bridglabz.ValidateEmailTest" time="0.001"/>
+  <testcase name="emailCheck[9]" classname="com.bridglabz.ValidateEmailTest" time="0.0"/>
+  <testcase name="emailCheck[10]" classname="com.bridglabz.ValidateEmailTest" time="0.001"/>
+  <testcase name="emailCheck[11]" classname="com.bridglabz.ValidateEmailTest" time="0.0"/>
+  <testcase name="emailCheck[12]" classname="com.bridglabz.ValidateEmailTest" time="0.001"/>
+  <testcase name="emailCheck[13]" classname="com.bridglabz.ValidateEmailTest" time="0.0"/>
+  <testcase name="emailCheck[14]" classname="com.bridglabz.ValidateEmailTest" time="0.0"/>
+  <testcase name="emailCheck[15]" classname="com.bridglabz.ValidateEmailTest" time="0.003"/>
+  <testcase name="emailCheck[16]" classname="com.bridglabz.ValidateEmailTest" time="0.0"/>
+  <testcase name="emailCheck[17]" classname="com.bridglabz.ValidateEmailTest" time="0.0"/>
+  <testcase name="emailCheck[18]" classname="com.bridglabz.ValidateEmailTest" time="0.0"/>
+  <testcase name="emailCheck[19]" classname="com.bridglabz.ValidateEmailTest" time="0.0"/>
+  <testcase name="emailCheck[20]" classname="com.bridglabz.ValidateEmailTest" time="0.001"/>
+  <testcase name="emailCheck[21]" classname="com.bridglabz.ValidateEmailTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
