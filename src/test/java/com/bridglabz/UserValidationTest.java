@@ -32,4 +32,11 @@ public class UserValidationTest {
         boolean result=userValidation.validateFirstName("Gh");
         Assert.assertEquals(false,result);
     }
+
+    @Test
+    public void givenEmailId_WhenProper_ShouldReturnTrue() {
+        UserValidation userValidation=new UserValidation();
+        boolean result=userValidation.validateEmailId("himanshugharat3@gmail.com");
+        Assert.assertEquals(true,result);
+    }
 }
